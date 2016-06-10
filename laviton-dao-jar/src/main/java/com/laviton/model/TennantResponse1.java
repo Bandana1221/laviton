@@ -1,0 +1,118 @@
+package com.laviton.model;
+
+import java.io.Serializable;
+
+import com.fasterxml.jackson.annotation.JsonGetter;
+import com.fasterxml.jackson.annotation.JsonSetter;
+
+public class TennantResponse1 implements Serializable {
+String success;
+String error;
+String tennantid;
+String tennantname;
+String displayname;
+String accountno;
+String enddate;
+String startdate;
+String address;
+String billinginterval;
+String nextbilldate;
+String lastbilldate;
+@JsonGetter
+public String getSuccess() {
+	return success;
+}
+@JsonSetter
+public void setSuccess(String success) {
+	this.success = success;
+}
+@JsonGetter
+public String getError() {
+	return error;
+}
+@JsonSetter
+public void setError(String error) {
+	this.error = error;
+}
+@JsonGetter
+public String getTennantid() {
+	return tennantid;
+}
+@JsonSetter
+public void setTennantid(String tennantid) {
+	this.tennantid = tennantid;
+}
+@JsonGetter
+public String getTennantname() {
+	return tennantname;
+}
+@JsonSetter
+public void setTennantname(String tennantname) {
+	this.tennantname = tennantname;
+}
+@JsonGetter
+public String getDisplayname() {
+	return displayname;
+}
+@JsonSetter
+public void setDisplayname(String displayname) {
+	this.displayname = displayname;
+}
+@JsonGetter
+public String getAccountno() {
+	return accountno;
+}
+@JsonSetter
+public void setAccountno(String accountno) {
+	this.accountno = accountno;
+}
+@JsonGetter
+public String getEnddate() {
+	return enddate;
+}
+@JsonSetter
+public void setEnddate(String enddate) {
+	this.enddate = enddate;
+}
+@JsonGetter
+public String getStartdate() {
+	return startdate;
+}
+@JsonSetter
+public void setStartdate(String startdate) {
+	this.startdate = startdate;
+}
+@JsonGetter
+public String getAddress() {
+	return address;
+}
+@JsonSetter
+public void setAddress(String address) {
+	this.address = address;
+}
+@JsonGetter
+public String getBillinginterval() {
+	return billinginterval;
+}
+@JsonSetter
+public void setBillinginterval(String billinginterval) {
+	this.billinginterval = billinginterval;
+}
+@JsonGetter
+public String getNextbilldate() {
+	return nextbilldate;
+}
+@JsonSetter
+public void setNextbilldate(String nextbilldate) {
+	this.nextbilldate = nextbilldate;
+}
+@JsonGetter
+public String getLastbilldate() {
+	return lastbilldate;
+}
+@JsonSetter
+public void setLastbilldate(String lastbilldate) {
+	this.lastbilldate = lastbilldate;
+}
+
+}
